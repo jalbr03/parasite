@@ -1,1 +1,1 @@
-instance_destroy(arm);
+if(instance_exists(arm))arm.retract = true;

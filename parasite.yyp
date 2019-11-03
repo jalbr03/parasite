@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "9c4a3698-75d1-4285-b746-eb111242eac5",
+            "Value": {
+                "id": "b42e05c2-3561-4833-9d83-9e38b7e94071",
+                "resourcePath": "sprites\\spr_arm_slinging\\spr_arm_slinging.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "95a7489b-de2e-4bc2-9d12-f9bfb37f836d",
