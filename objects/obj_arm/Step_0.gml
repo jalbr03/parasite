@@ -1,6 +1,9 @@
 if(retract == false){
-	if(image_xscale < (sqrt(sqr(startx-x)+sqr(starty-y)))/64) image_xscale += 0.1;
-	if(image_xscale > (sqrt(sqr(startx-x)+sqr(starty-y)))/64) image_xscale -= 0.1;
+	if(x<startx+34&&x>startx-34&&y<starty+34&&y>starty-34) image_xscale = (sqrt(sqr(startx-x)+sqr(starty-y)))/64
+	else{
+		if(image_xscale < (sqrt(sqr(startx-x)+sqr(starty-y)))/64) image_xscale += 0.1;
+		if(image_xscale > (sqrt(sqr(startx-x)+sqr(starty-y)))/64) image_xscale -= 0.1;
+	}
 	if(x > startx+obj_levelMAN.range || x < startx-obj_levelMAN.range) retract = true;
 }else{
 	image_xscale -= 0.2;

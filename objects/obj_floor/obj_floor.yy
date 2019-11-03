@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_floor",
     "eventList": [
-        
+        {
+            "id": "25c17973-5212-4900-970b-203d70d7db40",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "34480bce-0d55-484e-9a3b-9a76043d6da7"
+        },
+        {
+            "id": "a9f9d959-e4ac-47ba-99c2-9e203031d3ee",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "34480bce-0d55-484e-9a3b-9a76043d6da7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -17,7 +36,7 @@
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
     "physicsObject": true,
-    "physicsRestitution": 0.1,
+    "physicsRestitution": 0.01,
     "physicsSensor": false,
     "physicsShape": 1,
     "physicsShapePoints": [
