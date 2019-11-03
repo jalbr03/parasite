@@ -1,3 +1,4 @@
 target = 0;
 mind_controlrange = 400;
-drawto = 0;
+targetx = 0;
+targety = 0;

@@ -1,7 +1,7 @@
 if(retract == false){
 	if(image_xscale < (sqrt(sqr(startx-x)+sqr(starty-y)))/64) image_xscale += 0.1;
 	if(image_xscale > (sqrt(sqr(startx-x)+sqr(starty-y)))/64) image_xscale -= 0.1;
-	if(x > startx+200 || x < startx-200) retract = true;
+	if(x > startx+obj_levelMAN.range || x < startx-obj_levelMAN.range) retract = true;
 }else{
 	image_xscale -= 0.2;
 }
